@@ -18,7 +18,7 @@ function App() {
     <div className="App">
       <h1>App</h1>
       <Form addTask={addTask}/>
-      <List />
+      <List taskList={taskList}/>
     </div>
   );
 }
